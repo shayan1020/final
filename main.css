@@ -1,7 +1,9 @@
-  .bg
+/* Navbar Background */
+.bg
 {
   background-color: #2c3e50;
 }
+/* Modifying Logo */
 #logo
   {
       border-radius: 50%; float: right;
@@ -16,7 +18,7 @@ html{
 }
 .row
 {
-    padding: 10px;
+  padding: 10px;
 }
 .about
 {
@@ -93,4 +95,102 @@ h1{
 {
     padding: 10px;
     margin-left: 50%;
+}
+/* Social Media Bar */
+
+.icons
+{
+   
+    position: fixed;
+    top: 10%;
+    right:0%;
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+}
+.icons a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 22px;
+    font-family: "oswald",sans-serif;
+    margin: 2px;
+    text-align: left;
+   border-radius: 50px 0px 0px 50px;
+   transform: translate(180px,0px) ;
+   transition: all 0.5s;
+}
+.icons a:hover{
+    transform: translate(0px,0px);
+}
+.icons a i
+{
+    margin-right: 25px;
+   background-color: white;
+   color: black;
+   line-height: 40px;
+    height: 40px;
+    width: 40px;
+   text-align: center;
+   border-radius: 50%;
+   transition: all 0.5s;
+}
+.icons a:hover i
+{
+    transform: rotateX(360deg);
+}
+.icons a i.fa-facebook-f
+{
+    color: #3b5998;
+ 
+} 
+.icons a i.fa-instagram
+{
+    color: #C13584;
+ 
+} 
+.icons a i.fa-whatsapp
+{
+    color: #4FCE5D
+ 
+} 
+.icons a i.fa-youtube
+{
+    color:	#FF0000;
+ 
+} 
+.icons a i.fa-twitter
+{
+    color: #00acee;
+ 
+} 
+.facebook
+{
+    background-color: #3b5998;
+    color: white;
+}
+.video
+{
+    border-spacing: 50px;
+}
+.instagram
+{
+    background-color:#C13584;
+    color: white;
+}
+.whatsapp
+{
+    background-color:#4FCE5D;
+    color: white;
+}
+.youtube
+{
+    background-color:	#FF0000;
+    color: white;
+}
+.twitter
+{
+    background-color: #00acee;
+    color: white;
 }
