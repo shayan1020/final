@@ -1,0 +1,71 @@
+.bg
+{
+  background-color: #2c3e50;
+}
+#logo
+  {
+      border-radius: 50%; float: right;
+      
+  }
+  body{
+    padding-top:65px;  
+    font-size: 1.2rem;
+}
+html{
+  scroll-behavior: smooth;
+}
+.row
+{
+  padding: 10px;
+}
+.about
+{
+  background-color: rgba(0,0,0,0.12);
+}
+.coursesindivisual
+{
+  background-color: rgba(6, 5, 3, 0.2);
+}
+.coursesrates
+{
+  background-color: rgba(6, 5, 3, 0.2);
+}
+.features
+{
+  background-color: rgba(0,0,0,0.12);
+}
+.footer
+{
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.btn
+{
+  margin-left: 40%;
+  margin-top: 10px;
+}
+
+.mylist
+{
+    list-style: none;
+}
+hr{
+  
+ width: 90px;
+ height: 10px;
+ background-color: #b334d3;
+ 
+ border-radius: 2px 0 0 2px;
+}
+h1{
+  margin-left: auto;
+  padding: 10px;
+  padding-top: 7%;
+}
+#mail
+{
+    padding: 10px;
+    margin-left: 50%;
+}
