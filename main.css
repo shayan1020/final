@@ -34,6 +34,28 @@ html{
 {
   background-color: rgba(0,0,0,0.12);
 }
+.header
+{
+  background-image: url("./Images/backgroundimg.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  color:black;
+  /* Flexbox */
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+#head
+{
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #ffffff;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4)
+                ,0px 8px 13px rgba(0,0,0,0.1)
+                ,0px 18px 23px rgba(0,0,0,0.1);
+                font-family: 'Lato';
+}
 .footer
 {
     background-color: #2c3e50;
@@ -62,6 +84,9 @@ hr{
 h1{
   margin-left: auto;
   padding: 10px;
+  font-weight: 700;
+  font-size: 3.0em;
+  font-family: 'Lato';
   padding-top: 7%;
 }
 #mail
